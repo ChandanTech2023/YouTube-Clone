@@ -1,12 +1,16 @@
 import './App.css';
+import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-   <div className='w-full bg-slate-500 text-center mt-4'>
-    <h1>Start Project...</h1>
-   
-    
+   <div >
+    <Navbar/>
+    <div className='flex mt-8'>
+    <Sidebar/>
+    {/* video render here .... */}
 
+    </div>
    </div>
   );
 }
